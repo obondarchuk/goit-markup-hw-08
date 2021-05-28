@@ -1,0 +1,17 @@
+.menu {
+  display: inline-flex;
+}
+.menu__item:not(:last-child) {
+  margin-right: 50px;
+  position: relative;
+}
+.menu__item-active::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: var(--alt-cl);
+  margin-top: 45px;
+  border-radius: 3px;
+}

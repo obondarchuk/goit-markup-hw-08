@@ -1,0 +1,39 @@
+.block--title-bg {
+  max-width: 1600px;
+  height: 600px;
+  padding-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/photohead.jpg");
+}
+.block--team-bg {
+  background-color: var(--team-bg);
+}
+.block--teamwork {
+  padding-top: 0px;
+}
+.block--about {
+  width: 100%;
+}
+.block--about-team {
+  width: 100%;
+}
+.block--footer-bg {
+  width: 100%;
+}
+.block--second-bg {
+  width: 100%;
+}
+.block--client {
+  max-width: 1200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}

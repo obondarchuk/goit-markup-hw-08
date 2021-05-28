@@ -1,0 +1,71 @@
+.page-header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+}
+.page-header__nav {
+  margin-right: auto;
+}
+.page-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.page-header__logo {
+  margin-right: 95px;
+}
+.page-header__logo-first {
+  font-family: var(--logo-font);
+  color: var(--alt-cl);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.page-header__logo-second {
+  font-family: var(--logo-font);
+  color: var(--title-cl);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.page-header__logo-second-white {
+  font-family: var(--logo-font);
+  color: var(--accent-cl);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.page-header__link {
+  font-family: var(--main-font);
+  color: var(--title-cl);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.page-header__link-active {
+  color: var(--alt-cl);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.page-header__address-link {
+  font-family: var(--main-font);
+  color: var(--main-text-cl);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.page-header__address-link:not(:last-child) {
+  margin-right: 50px;
+}
+.page-header__adress-iconmail {
+  fill: #afb1b8;
+  margin-right: 10px;
+  stroke: currentColor;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.page-header__adress-iconmail:hover,
+.page-header__adress-iconmail:focus {
+  fill: var(--alt-cl);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

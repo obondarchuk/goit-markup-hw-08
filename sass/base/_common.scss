@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--title-cl);
+  font-size: 14px;
+  line-height: 1.71;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+  height: auto;
+}
+.visually-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
