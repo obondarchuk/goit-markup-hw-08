@@ -1,6 +1,6 @@
 .block--title-bg {
-  max-width: 1600px;
-  height: 600px;
+  width: 100%;
+  height: 400px;
   padding-top: 200px;
   margin-left: auto;
   margin-right: auto;
@@ -11,13 +11,50 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../images/photohead.jpg");
+    url("../images/header_mobile.jpg");
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/header_mobile.jpg");
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/header_tablet.jpg");
+  }
+  @media screen and (min-width: 1200px) {
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/photohead.jpg");
+  }
 }
 .block--team-bg {
   background-color: var(--team-bg);
 }
 .block--teamwork {
   padding-top: 0px;
+  display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
 }
 .block--about {
   width: 100%;

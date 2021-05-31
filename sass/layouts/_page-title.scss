@@ -1,7 +1,7 @@
 .page-title {
   color: var(--accent-cl);
   font-weight: 900;
-  font-size: 44px;
+  font-size: 26px;
   line-height: 1.36;
   padding-bottom: 30px;
   max-width: 650px;
@@ -9,4 +9,14 @@
   margin-right: auto;
   text-align: center;
   text-transform: uppercase;
+
+  @media screen and (min-width: 480px) {
+    font-size: 26px;
+    line-height: 1.36;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }

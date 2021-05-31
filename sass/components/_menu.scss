@@ -1,5 +1,22 @@
 .menu {
-  display: inline-flex;
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: inline-flex;
+  }
+}
+.menu-address {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: inline-flex;
+    flex-direction: inherit;
+  }
 }
 .menu__item:not(:last-child) {
   margin-right: 50px;
