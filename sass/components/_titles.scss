@@ -6,6 +6,7 @@
   color: var(--title-cl);
   font-weight: 700;
   font-size: 14px;
+  width: 100%;
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -13,14 +14,23 @@
 
   @media screen and (min-width: 480px) {
     text-align: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   @media screen and (min-width: 768px) {
     text-align: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   @media screen and (min-width: 1200px) {
     text-align: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .second__title-text {
@@ -35,12 +45,12 @@
 
   @media screen and (min-width: 480px) {
     max-width: 450px;
-    flex-basis: calc((100% - 4 * 30px) / 2);
+    justify-items: space-between;
   }
 
   @media screen and (min-width: 768px) {
     max-width: 450px;
-    flex-basis: calc((100% - 4 * 30px) / 2);
+    flex-basis: calc((100% - 2 * 30px) / 2);
   }
 
   @media screen and (min-width: 768px) and (max-width: 1199.98px) {
